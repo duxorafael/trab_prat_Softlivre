@@ -31,13 +31,13 @@ Os programas podem ser compilados utilizando o **Makefile** incluído no projeto
 
 Compilar todos os programas:
 
-make
+**make**
 
 Compilar programas individualmente:
 
-make primo
-make vetor
-make matriz
+**make primo**
+**make vetor**
+**make matriz**
 
 Isso irá gerar os executáveis:
 
@@ -53,15 +53,15 @@ Após compilar, os programas podem ser executados pelo terminal.
 
 Executar o programa que verifica número primo:
 
-.\primo.exe
+**.\primo.exe**
 
 Executar o programa do vetor:
 
-.\vetor.exe
+**.\vetor.exe**
 
 Executar a calculadora de matrizes:
 
-.\matriz.exe
+**.\matriz.exe**
 
 ---
 
@@ -71,23 +71,21 @@ Foram criados scripts Bash para gerar entradas de teste automaticamente.
 
 Gerar teste para o programa **primo**:
 
-bash scrips/generate-test-primo.sh
+**bash scrips/generate-test-primo.sh**
 
 Gerar teste para o programa **vetor**:
 
-bash scrips/generate-test-vetor.sh
+**bash scrips/generate-test-vetor.sh**
 
 Gerar teste para o programa **matriz**:
 
-bash scrips/generate-test-matriz.sh
+**bash scrips/generate-test-matriz.sh**
 
 
 Esses scripts irão gerar arquivos de teste como:
 
 teste_primo.txt
-
 teste_vetor.txt
-
 teste_matriz.txt
 
 
@@ -99,15 +97,15 @@ Para executar os programas utilizando os testes gerados:
 
 Programa primo:
 
-type teste_primo.txt | .\primo.exe
+**type teste_primo.txt | .\primo.exe**
 
 Programa vetor:
 
-type teste_vetor.txt | .\vetor.exe
+**type teste_vetor.txt | .\vetor.exe**
 
 Programa matriz:
 
-type teste_matriz.txt | .\matriz.exe
+**type teste_matriz.txt | .\matriz.exe**
 
 
 ---
