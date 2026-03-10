@@ -2,9 +2,10 @@
 
 #include <iostream>
 using namespace std;
+int l1, c1, l2, c2;
 
 int main() {
-    int l1, c1, l2, c2;
+
 
     cout << "Linhas e colunas da matriz A: ";
     cin >> l1 >> c1;

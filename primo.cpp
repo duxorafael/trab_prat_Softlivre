@@ -2,9 +2,10 @@
 
 #include <iostream>
 using namespace std;
+int num;
 
 int main() {
-    int num;
+
     bool primo = true;
 
     cout << "Digite um numero inteiro: ";
@@ -24,7 +25,7 @@ int main() {
     if (primo){
         cout << "Primo";
     } else {
-        cout << "Nao é primo";
+        cout << "Nao e primo";
     }
 
     return 0;
