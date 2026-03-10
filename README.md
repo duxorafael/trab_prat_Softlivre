@@ -117,3 +117,9 @@ Programa matriz:
 - Bash
 - g++
 - git desktop
+
+---
+
+# OBS:
+
+1. utilizei o powershell para executar e testar os programas para outros terminais a escrita muda!
